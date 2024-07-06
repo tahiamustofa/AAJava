@@ -1,0 +1,44 @@
+.namta{
+display: inline-block;
+background-color: aqua;
+margin: 10px;
+
+
+padding: 10px;
+}
+
+
+.btnC,.pbtn{
+    padding: 10px;
+    background-color: greenyellow;
+    cursor: pointer;
+    display: inline-block;
+}
+.popup{
+    background-color: blue;
+    height: 400px;
+    width: 500px;
+    display: none;
+}
+.dbBlock{
+    display: block !important;
+}
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: blueviolet;
+    position: fixed;
+    right: 0;
+    top: 0;
+margin-right: -300px;
+transition: 0.5s;
+}
+.sidebarBtn{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+}
+.mr0{
+    margin-right: 0;
+}
